@@ -1,0 +1,161 @@
+
+/*   STYLYING THE CARD  */
+/*   STYLYING THE CARD  */
+/*   STYLYING THE CARD */
+/*   STYLYING THE CARD  */
+/*   STYLYING THE CARD */
+
+
+body {
+background-color: rgb(95, 94, 84);
+
+}
+
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  height: auto;
+  box-shadow: 10px 10px 8px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container {
+  height: 450px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(238, 227, 198);
+}
+
+.card img {
+  width: 400px;
+  height: 200px; /* Set a fixed height for the image container */
+  object-fit: cover; /* Ensures the image fills the container without stretching */
+  border-radius: 10px; /* Simplified syntax for border-radius */
+  overflow: hidden;
+}
+
+
+
+.card h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.card p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Movie List */
+#films {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  border-right: 1px solid gray;
+  float: left;
+}
+
+#films li {
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-transform: capitalize;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#films li:hover {
+  background-color: #ccc;
+}
+
+.selected {
+  background-color: #ccc !important;
+  color: white !important;
+}
+
+
+
+button.buy-ticket {
+  background-color: #f44336;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button.buy-ticket:hover {
+  background-color: #d32f2f;
+}
+
+button.buy-ticket:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
